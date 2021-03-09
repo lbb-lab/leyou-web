@@ -1,4 +1,7 @@
 <template>
+
+      <!-- Vuetify栅格使用 v-container作为容器，使用v-layout作为容器的分割，其中放置v-flex。 -->
+      <!-- v-flex自动设置子组件flex: 1 1 auto。结构如下v-container>>v-layout>>v-flex。 -->
   <v-container fluid grid-list-md>
     <v-layout row wrap>
       <v-flex xs10 md6>
